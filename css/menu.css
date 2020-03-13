@@ -1,0 +1,50 @@
+.men{
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+#menu {
+        width: auto;
+        margin: 0 auto;
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        display: flex;
+        text-align: center;
+        align-items: center;
+    }
+    #menu>ul>li {
+        float: left
+    }
+    #menu>ul>li a {
+        display: block;
+        width: 110px;
+        height: 50px;
+        background: rgb(43, 43, 43);
+        text-align: center;
+        line-height: 50px;
+    }
+    #menu>ul>li>ul {
+        display: none
+    }
+    #menu>ul>li>ul>li {
+        position: relative
+    }
+    #menu>ul>li>ul>li>a {
+        background: rgb(41, 54, 89);
+    }
+    #menu>ul>li>ul>li>ul {
+        position: absolute;
+        z-index: 1;
+        left: 100px;
+        top: 0;
+        display: none;
+    }
+    #menu>ul>li>ul>li>ul a {
+        background: #3b3b3b;
+    }
+    #menu ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }

@@ -1,0 +1,85 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+header{
+  padding: 30px;
+  background: rgb(162, 53, 13);
+  color: #FFF;
+  font-family: 'Inter', sans-serif;
+}
+.container{
+  color: #FFF;
+  font-family: 'Bellota Text', cursive;
+}
+.contenedor{
+  margin-top: 10px;
+  display: grid;
+  grid-gap: 7px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, auto);
+}
+
+.menu{
+  background: rgb(187, 16, 101);
+  grid-column-start: 1;
+  grid-column-end: 2;
+  text-align: center;
+}
+.slider{
+  background: rgb(16, 144, 9);
+  grid-column-start: 2;
+  grid-column-end: -1;
+  text-align: center;
+}
+
+.contenido{
+  background: rgb(9, 63, 144);
+  grid-column-start: 1;
+  grid-column-end: 2;
+  text-align: center;
+}
+.ajax{
+  background: rgb(144, 9, 9);
+  grid-column-start: 2;
+  grid-column-end: -1;
+  text-align: center;
+}
+
+.efecto{
+  background: rgb(137, 9, 144);
+  grid-column-start: 1;
+  grid-column-end: 2;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+.otro{
+  background: rgb(187, 175, 7);
+  grid-column-start: 2;
+  grid-column-end: -1;
+  text-align: center;
+}
+footer{
+  background: rgb(71, 71, 71);
+  padding: 30px;
+  grid-column-start: 1;
+  grid-column-end: -1;
+}
+button{
+  margin: 10px 10px;
+  padding: 20px;
+  color: white;
+  font-size: 1.3em;
+  background-color: rgb(32, 44, 154);
+}
+
+.alerta{
+  padding: 10px;
+  background: rgb(21, 80, 52);
+  color: white;
+  font-size: 1.2em;
+  text-decoration: none;
+}

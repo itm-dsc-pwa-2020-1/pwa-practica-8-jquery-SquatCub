@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <title>Practica JQuery</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <script src="jquery-3.4.1.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Bellota+Text&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Inter&display=swap" rel="stylesheet">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="js/lightslider.js"></script>
+    <script src="js/jquery.innerfade.js"></script>
+    <script src="js/alertify.js"></script>
+    <script src="js/alertify.min.js"></script>
+    <link rel="stylesheet"  href="css/lightslider.css"/>
+    <link rel="stylesheet"  href="css/alertify.bootstrap.css"/>
+    <link rel="stylesheet"  href="css/alertify.core.css"/>
+    <link rel="stylesheet"  href="css/alertify.default.css"/>
+  </head>
+  <body>
+    <header>
+      <h2>Ejemplo de JQuery</h2>
+    </header>
+
+    <div class="container">
+      <div class="contenedor">
+        <div class="men">
+          <nav id="menu">
+          <ul>
+              <li><a>Inicio</a>
+                  <ul>
+                      <li><a>Principal</a>
+                      </li>
+                      <li><a>Salir</a>
+                      </li>
+                  </ul>
+              </li>
+              <li><a>Productos</a>
+              </li>
+              <li><a>Servicios</a>
+              </li>
+              <li><a>Ayuda</a>
+                  <ul>
+                      <li><a>Documentacion</a>
+                      </li>
+                      <li><a>Contacto</a>
+                          <ul>
+                              <li><a>Numero</a>
+                              </li>
+                              <li><a>WhatsApp</a>
+                              </li>
+                              <li><a>Social</a>
+                              </li>
+                          </ul>
+                      </li>
+                      <li><a>Acerca de</a>
+                      </li>
+                  </ul>
+              </li>
+            </ul>
+          </nav>
+        </div>
+
+        <div class="slider"  id="slider">
+          <h2>Slider</h2>
+          <div class="item">
+            <div class="clearfix" style="max-width:474px;">
+                <ul id="image-gallery" class="gallery list-unstyled cS-hidden">
+                    <li data-thumb="img/i1.jpg">
+                        <img src="img/i1.jpg" width="300"/>
+                         </li>
+                    <li data-thumb="img/i2.jpg">
+                        <img src="img/i2.jpg" width="300"/>
+                         </li>
+                    <li data-thumb="img/i3.jpg">
+                        <img src="img/i3.jpg" width="300"/>
+                         </li>
+                </ul>
+            </div>
+        </div>
+        </div>
+      </div>
+
+      <div class="contenedor">
+        <div class="contenido"  id="contenido">
+          <h2>Contenido externo</h2>
+          <button type="button" id="button" name="button">Cargar contenido</button>
+        </div>
+        <div class="ajax"  id="ajax">
+          <h2>Contenido desde un servidor con Ajax</h2>
+        </div>
+      </div>
+
+      <div class="contenedor">
+        <div class="efecto"  id="efecto">
+          <h2>Efecto transicion</h2>
+          <ul id="portfolio">
+          	<li>
+          		<a>
+          			<img src="img/cS-1.jpg" alt="Good Guy bad Guy" />
+          		</a>
+          	</li>
+          	<li>
+          		<a>
+          			<img src="img/cS-2.jpg" alt="Whizzkids" />
+          		</a>
+          	</li>
+          	<li>
+          		<a>
+          			<img src="img/cS-3.jpg" alt="Königin Mutter" />
+          		</a>
+          	</li>
+          	<li>
+          		<a>
+          			<img src="img/cS-4.jpg" alt="RT Hybride Archivierung" />
+          		</a>
+          	</li>
+          	<li>
+          		<a>
+          			<img src="img/cS-5.jpg" alt="TÜV SÜD Gruppe" />
+          		</a>
+          	</li>
+          </ul>
+        </div>
+        <div class="otro"  id="otro">
+          <h2>Alert con plugin de JQuery</h2>
+          <br>
+          <a href="#" class="alerta" id="simple_alert">Alerta simple</a>
+          <a href="#" class="alerta" id="simple_confirm">Alerta confirmacion</a>
+          <a href="#" class="alerta" id="simple_prompt">Alerta prompt</a>
+        </div>
+      </div>
+      <footer>&copy; Brandon Rodriguez</footer>
+    </div>
+
+
+
+  <script src="app.js"></script>
+  </body>
+</html>
